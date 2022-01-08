@@ -1,7 +1,7 @@
 :root {
     --color-background: #F3F3F3;
-    --color-background-nav: #2B3D50;
-    --color-background-home: #344960;
+    --color-background-nav: #000000;
+    --color-background-home: #ffffff;
     --color-text-light: #EDEDED;
     --color-text-title: #FF5555;
     --color-text-dark: #3D3D3D;
@@ -30,4 +30,11 @@ a:hover {
 
 .container {
     width: 90%;
+}
+
+main {
+    width: 100%;
+    height: calc(100vh - 160px);
+    display: flex;
+    flex-direction: column;
 }
