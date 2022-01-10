@@ -3,7 +3,7 @@
     <div class="text-top">Bem vindo ao Limestone Records</div>
 
     <a href="/" target="_blank">
-      <img alt="Limestone Records" id="logo" src="../assets/logo.png" />
+      <img alt="Limestone Records" id="logo" src="../assets/logo-full.png" />
     </a>
 
     <div class="text-bottom">

@@ -9,13 +9,13 @@
         v-on:click="toggleMenu"
         alt="Abrir menu"
         id="menu-button"
-        src="../assets/menu-button.png"
+        src="../assets/icons/menu-button.png"
       />
 
       <div v-on:click="toggleMenu" id="menu-overlay" v-if="menuActive"></div>
       <div id="menu-items" :class="{ active: menuActive }">
         <a href="/"
-          ><img alt="Limestone" id="menu-logo" src="../assets/logo-white.png"
+          ><img alt="Limestone" id="menu-logo" src="../assets/logo.png"
         /></a>
         <ul>
           <li><a href="/home">Home</a></li>
