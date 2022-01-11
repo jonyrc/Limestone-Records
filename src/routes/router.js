@@ -24,6 +24,7 @@ const routes = [{
 
 const router = new createRouter({
     routes,
+    base: '/limestone',
     history: createWebHistory()
 })
 
