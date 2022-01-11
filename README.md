@@ -22,3 +22,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Projeto desenvolvido durante o curso de VueJS + Axios do canal WDEV
+[Link do Vídeo](https://youtu.be/kmsM_hHrDHE)

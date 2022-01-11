@@ -1,9 +1,9 @@
 <template>
   <header>
     <nav class="container">
-      <a href="/"
+      <router-link to="/"
         ><img alt="Limestone" id="logo" src="../assets/logo-white.png"
-      /></a>
+      /></router-link>
 
       <img
         v-on:click="toggleMenu"
@@ -14,15 +14,15 @@
 
       <div v-on:click="toggleMenu" id="menu-overlay" v-if="menuActive"></div>
       <div id="menu-items" :class="{ active: menuActive }">
-        <a href="/"
+        <router-link to="/"
           ><img alt="Limestone" id="menu-logo" src="../assets/logo.png"
-        /></a>
+        /></router-link>
         <ul>
-          <li><a href="/bands">Bands</a></li>
-          <li><a href="/playlists">Playlists</a></li>
-          <li><a href="/videos">Videos</a></li>
-          <li><a href="/about">About</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <li><router-link to="/bands">Bands</router-link></li>
+          <li><router-link to="/playlists">Playlists</router-link></li>
+          <li><router-link to="/videos">Videos</router-link></li>
+          <li><router-link to="/about">About</router-link></li>
+          <li><router-link to="/contact">Contact</router-link></li>
         </ul>
       </div>
     </nav>
