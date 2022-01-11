@@ -2,12 +2,11 @@
   <main>
     <div class="text-top">Bem vindo ao Limestone Records</div>
 
-    <a href="/" target="_blank">
-      <img alt="Limestone Records" id="logo" src="../assets/logo-full.png" />
-    </a>
+    <img alt="Limestone Records" id="logo" src="../assets/logo-full.png" />
 
     <div class="text-bottom">
-      Selo do movimento Limestone, de Arcos-MG e região
+      Selo independente criado para produção e distribuição de rock'n'roll feito
+      em Arcos e região
     </div>
   </main>
 </template>
@@ -34,7 +33,8 @@ main {
 .text-bottom {
   color: var(--color-text-dark);
   font-size: 18px;
-  margin-top: 22px;
+  margin: 22px;
+  text-align: center;
 }
 
 #logo {
