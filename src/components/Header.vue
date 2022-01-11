@@ -18,10 +18,11 @@
           ><img alt="Limestone" id="menu-logo" src="../assets/logo.png"
         /></a>
         <ul>
-          <li><a href="/home">Home</a></li>
+          <li><a href="/bands">Bands</a></li>
+          <li><a href="/playlists">Playlists</a></li>
           <li><a href="/videos">Videos</a></li>
-          <li><a href="/sobre">Sobre</a></li>
-          <li><a href="/home">Contato</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
     </nav>
